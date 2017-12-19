@@ -1,6 +1,6 @@
 /*默认样式*/
 body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0;box-sizing:border-box;outline:none;color:#696969}
-*{font-size:0.2rem;font-family:"微软雅黑";-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}/*禁止复制*/
+*{font-size:0.18rem;font-family:"微软雅黑";-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}/*禁止复制*/
 [contenteditable = "true"], input, textarea {-webkit-user-select: auto!important;-khtml-user-select: auto!important;-o-user-select: auto!important;/*-moz-user-select: auto!important;*//*-ms-user-select: auto!important;*//*user-select: auto!important;*/  }
 ::-webkit-scrollbar {width: 0;height:0;}/* 滚动槽 */::-webkit-scrollbar-track {width:0}/* 滚动条滑块 */::-webkit-scrollbar-thumb {background: rgba(0,0,0,0.1); }::-webkit-scrollbar-thumb:window-inactive {background: rgba(0,0,0,0.2);}
 a,span{text-decoration:none;color:#696969;outline:none;blr:expression(this.onFocus=this.blur());-webkit-tap-highlight-color: #fff;}
