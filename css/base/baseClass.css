@@ -1,0 +1,358 @@
+*{
+    color:#333;font-size:0.24rem;
+}
+.width{
+    width:100%;
+}
+.bfb{
+    width:100%;height:100%;
+}
+.center{
+    margin:0 auto;
+}
+.reCenter{
+    position: relative;
+    left:50%;
+
+}
+/*字体字号*/
+.size20{
+    font-size:0.2rem;
+}
+.size24{
+    font-size:0.24rem;
+}
+.size28{
+    font-size:0.28rem;
+}
+.size32{
+    font-size:0.32rem;
+}
+.size36{
+    font-size:0.36rem;
+}
+.size40{
+    font-size:0.4rem;
+}
+.size44{
+    font-size:0.4rem;
+}
+.size48{
+    font-size:0.4rem;
+}
+
+/*字体颜色*/
+.color000{
+    color:#000;
+}
+.color333{
+    color:#333;
+}
+.color666{
+    color:#666;
+}
+.color999{
+    color:#999;
+}
+.colorfff{
+    color:#fff;
+}
+/*浮动*/
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear:both;
+}
+/*padding填充值*/
+.pa12{
+    padding:0.12rem;
+}
+.pa12_lr{
+    padding:0 0.12rem;
+}
+.pa12_tb{
+    padding:0.12rem 0;
+}
+.pa12_top{
+    padding-top:0.12rem;
+}
+.pa12_bottom{
+    padding-bottom:0.12rem;
+}
+.pa12_left{
+    padding-left:0.12rem;
+}
+.pa12_right{
+    padding-right:0.12rem;
+}
+.pa20{
+    padding:0.20rem;
+}
+.pa20_lr{
+    padding:0 0.20rem;
+}
+.pa20_tb{
+    padding:0.20rem 0;
+}
+.pa20_top{
+    padding-top:0.20rem;
+}
+.pa20_bottom{
+    padding-bottom:0.20rem;
+}
+.pa20_left{
+    padding-left:0.20rem;
+}
+.pa20_right{
+    padding-right:0.20rem;
+}
+/*margin值*/
+.ma12{
+    margin:0.12rem;
+}
+.ma12_lr{
+    margin:0 0.12rem;
+}
+.ma12_tb{
+    margin:0.12rem 0;
+}
+.ma12_top{
+    margin-top:0.12rem;
+}
+.ma12_bottom{
+    margin-bottom:0.12rem;
+}
+.ma12_left{
+    margin-left:0.12rem;
+}
+.ma12_right{
+    margin-right:0.12rem;
+}
+.ma20{
+    margin:0.20rem;
+}
+.ma20_lr{
+    margin:0 0.20rem;
+}
+.ma20_tb{
+    margin:0.20rem 0;
+}
+.ma20_top{
+    margin-top:0.20rem;
+}
+.ma20_bottom{
+    margin-bottom:0.20rem;
+}
+.ma20_left{
+    margin-left:0.20rem;
+}
+.ma20_right{
+    margin-right:0.20rem;
+}
+
+/*定位*/
+.fixed{
+    position: fixed;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+.left0{
+    left:0;position: absolute;
+}
+.right0{
+    right:0;position: absolute;
+}
+.top0{
+    top:0;position: absolute;
+}
+.bottom0{
+    bottom:0;position: absolute;
+}
+.alCenter{
+    text-align: center;
+}
+.alRight{
+    text-align: right;
+}
+
+/*背景色*/
+.bgf2{
+    background:#f2f2f2;
+}
+.bgfff{
+    background:#fff;
+}
+.bgf60{
+    background:#f60;
+}
+/*溢出显示省略号*/
+.overflow{
+    overflow: hidden;text-overflow: ellipsis;white-space: nowrap;
+}
+.overflow2{
+    overflow:hidden;text-overflow:ellipsis;display:-webkit-box;
+    -webkit-box-orient:vertical;-webkit-line-clamp:2;
+}
+.overflow3{
+    overflow:hidden;text-overflow:ellipsis;display:-webkit-box;
+    -webkit-box-orient:vertical;-webkit-line-clamp:3;
+}
+.overflow4{
+    overflow:hidden;text-overflow:ellipsis;display:-webkit-box;
+    -webkit-box-orient:vertical;-webkit-line-clamp:4;
+}
+/*彈性盒*/
+.flex{
+    display:-webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.flex_direction{
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -moz-box-orient:vertical;
+    -moz-box-direction:normal;
+    flex-direction:column;
+    -webkit-flex-direction:column;
+}
+.flex_wrap{
+    -webkit-flex-flow:row wrap;
+    -webkit-box-orient:horizontal;
+    -webkit-box-lines:multiple;
+    -moz-flex-flow:row wrap;
+    box-orient:horizontal;
+    box-lines:multiple;
+    flex-flow:row wrap;
+}
+/*横向排列布局*/
+.flex_row{
+    -webkit-justify-content:center;
+    justify-content:center;
+    -moz-box-pack:center;
+    -webkit--moz-box-pack:center;
+    box-pack:center;
+}
+/*豎向佈局*/
+.flex_column{
+    align-items:center;
+    -webkit-align-items:center;
+    box-align:center;
+    -moz-box-align:center;
+    -webkit-box-align:center;
+}
+
+.flex2{
+    box-flex:2;
+    -webkit-box-flex:2;
+    -moz-box-flex:2;
+    flex:2;
+    -webkit-flex:2;
+}
+.flex3{
+    box-flex:3;
+    -webkit-box-flex:3;
+    -moz-box-flex:3;
+    flex:3;
+    -webkit-flex:3;
+}
+.flex4{
+    box-flex:4;
+    -webkit-box-flex:4;
+    -moz-box-flex:4;
+    flex:4;
+    -webkit-flex:4;
+}
+.flex5{
+    box-flex:5;
+    -webkit-box-flex:5;
+    -moz-box-flex:5;
+    flex:5;
+    -webkit-flex:5;
+}
+/*横向翻转*/
+.row_reverse{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+/*竖向翻转*/
+.column_reverse{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+/*元素靠右侧*/
+.container_end{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}
+/*元素居中分布*/
+.container_center{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+/*元素平局分布*/
+.container_between{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+/*内部元素居中*/
+.container_center{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+/*从顶部至下100%*/
+.flex_stretch{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: stretch;
+    align-items: stretch;
+}
+/*靠近顶部*/
+.flex_top{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+/*靠近底部*/
+.flex_bottom{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+}
+/*不换行*/
+.flex_nowrap{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+/*换行*/
+.flex_wrap{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
